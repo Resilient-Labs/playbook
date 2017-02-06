@@ -24,7 +24,7 @@ Process for contributing to projects.
 5. Create a new branch to get work done (use the issue number to name the branch ex. iss15 would be if you were working on the 15th issue) ```git branch iss15```
 6. Checkout branch you created, so you can start working on it ```git checkout iss1```
 7. MAKE YOUR CHANGES (keep them small and don't make goofy commits) - if you use a lot of commits you will need to squash them to keep your commits clean
-8. Commit your changes ```git commit -a -m 'added whatever [issue 15]'```
+8. Commit your changes ```git add --all && git commit -m "comment [issue 15]"```
 9. Push your commits ```git push origin iss15```
 10. Pray - msg Muigai or Leon if it did not work
 11. Move back to master ```git checkout master```
