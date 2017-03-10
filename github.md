@@ -18,7 +18,8 @@ Process for contributing to projects.
 
 ##Getting Work Done
 1. Fork the repo (on github) and clone it to your Desktop ```git clone <repo url>```
-2. Add the upstream (keeps track of changes on main repo) ```git remote add --track master upstream git://github.com/upstreamname/projectname.git```
+2. cd into cloned repo
+3. Add the upstream (keeps track of changes on main repo) ```git remote add --track master upstream git://github.com/Resilient-Labs/projectname.git```
 3. Get the code from upstream ```git fetch upstream```
 4. Merge the code from upstream into your master ```git merge upstream/master```
 5. Create a new branch to get work done (use the issue number to name the branch ex. iss15 would be if you were working on the 15th issue) ```git branch iss15```
