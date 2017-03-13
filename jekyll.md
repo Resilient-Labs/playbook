@@ -22,6 +22,7 @@ Environment for developing jekyll projects locally.
 1.  Open a command prompt to location of the Vagrantfile and run ```vagrant ssh```
 2.  Once on the VM prompt ```cd /vagrant```
 3.  Create new site with ```jekyll new <sitename>```
-4.  cd into new folder ```cd <sitename>```
-5.  Start the jekyll server ```jekyll serve --host 0.0.0.0```
-6.  Visit Site in Browser ```localhost:4000```
+4.	Type password, ```vagrant```
+5.  cd into new folder ```cd <sitename>```
+6.  Start the jekyll server ```jekyll serve --host 0.0.0.0```
+7.  Visit Site in Browser ```localhost:4000```
