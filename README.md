@@ -9,6 +9,14 @@
 [Anti-Harassment Policy](harassment.md)
 
 ### Development
+
+***Style Guides***
+[HTML Style Guide](html-style.md)  
+[CSS && SCSS Style Guide](css-style.md)  
+[Javascript Style Guide](js-style.md)  
+
+***Setup && Workflow***
+
 [Github Workflow](github.md)  
 [Jekyll Setup w/ Vagrant](jekyll.md)
 
