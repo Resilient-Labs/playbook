@@ -1,15 +1,15 @@
-######[main](README.md)
+###### [main](README.md)
 Github-Workflow
 ===============
 
 Process for contributing to projects.
 
-##Client Communication and Deal Stage
+## Client Communication and Deal Stage
 1. Every communication with a client must be logged in Hubspot. You should be using the Hubspot crm plugin for gmail or outlook. This will keep all of our communication and files in one location.
 2. As a client progresses, please move them to the appropriate stage of the lab pipeline.
 3. Once a deal reaches the development phase of the pipeline Muigai or Leon will create a new repository and Github project for that client.
 
-##Github Project
+## Github Project
 1. Every project in the development stage on Hubspot must have a corresponding Project/Repo on Github - owned by Muigai or Leon.
 2. Use the Github Project Kanban board to plan tasks for that project.
 3. Enter every task to be completed into the Icebox column.
@@ -17,7 +17,7 @@ Process for contributing to projects.
 5. Turn every item in the sprint column into an issue.
 6. Assign the issue to yourself and move it into the working column.
 
-##Getting Work Done
+## Getting Work Done
 1. Fork the repo (on github) and clone it to your Desktop ```git clone <repo url>```
 2. cd into cloned repo
 3. Add the upstream (keeps track of changes on main repo) ```git remote add --track master upstream git://github.com/Resilient-Labs/projectname.git```
@@ -35,7 +35,7 @@ Process for contributing to projects.
 14. I want to repeat, but I need the changes I just made and my PR hasn't been excepted yet: ```git checkout -b branch-just-commited-name new-branch-name```
 
 
-##Submitting Pull Request
+## Submitting Pull Request
 1. Go to your forked repo on github
 2. Locate the branch you created
 3. There should be a green button asking you to submit a pull request - click it
