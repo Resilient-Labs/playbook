@@ -35,7 +35,7 @@ You can make a report either personally or anonymously.
 
 ###Anonymous Report
 
-You can make an anonymous report here [Google Form].
+You can make an anonymous report [here](https://goo.gl/forms/y5jizzAR6zZckgYZ2).
 
 We can't follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.
 
@@ -43,15 +43,19 @@ We can't follow up an anonymous report with you directly, but we will fully inve
 
 You can make a personal report by:
 
-* Sending an email here: help@resiliencoders.org
-* Contacting a staff member
+* Contacting a key staff member (contact info below).
 
 When taking a personal report, our staff will ensure you are safe and cannot be overheard. They may involve other staff to ensure your report is managed properly. Once safe, we'll ask you to tell us about what happened. This can be upsetting, but we'll handle it as respectfully as possible, and you can bring someone to support you. You won't be asked to confront anyone and we won't tell anyone who you are.
 
 Our team will be happy to help you contact venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the program. We value your attendance.
 
-Email: help@resiliencoders.org  
-Phone:  
+Key Staff:    
+David Delmar | david@resilientcods.org | 617.850.2186  
+Helen Rosenfeld | helen@resilientcoders.org |  
+Leon Noel | leon@resilientcoders.org | 215.821.7195  
+
+If you feel at risk of immediate bodily harm, you should call 911.
+
 CIC phone number: 617-514-7300  
 CIC help email: HelpBoston17@cic.us  
 Police/Emergency medical services: 911  
