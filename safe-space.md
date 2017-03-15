@@ -56,13 +56,13 @@ Leon Noel | leon@resilientcoders.org | 215.821.7195
 
 If you feel at risk of immediate bodily harm, you should call 911.
 
-CIC phone number: 617-514-7300  
+CIC phone number: 617.514.7300  
 CIC help email: HelpBoston17@cic.us  
 Police/Emergency medical services: 911  
-Boston police department non-emergency: (617) 343-4240  
-Boston medical center: 	617-638-8000  
-Boston sexual assault hot line: 1-877-785-2020  
-Local taxi: 617-536-5010  
+Boston police department non-emergency: 617.343.4240  
+Boston medical center: 	617.638.8000  
+Boston sexual assault hot line: 1.877.785.2020  
+Local taxi: 617.536.5010  
 
 
 
