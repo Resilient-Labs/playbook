@@ -6,6 +6,7 @@ Resilient Lab's JavaScript Style Guide
 
 *Resilient Lab's version of a mostly reasonable approach to JavaScript*
 
+### Other Style Guides
  - [HTML](html-style.md)
  - [CSS & Sass](css-style.md)
 
