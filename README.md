@@ -1,14 +1,14 @@
-#Resilient Coders Playbook  
+# Resilient Coders Playbook  
 ![RC-logo](img/rc-logo.png)
-#Hacking The Opportunity Gap
-##Spreading code literacy to young people from traditionally undeserved communities
+# Hacking The Opportunity Gap
+## Spreading code literacy to young people from traditionally undeserved communities
 
-###Lab policies
+### Lab policies
 [Core Values](core-values.md)  
 [Safe Space Policy](safe-space.md)  
 [Anti-Harassment Policy](harassment.md)
 
-###Development
+### Development
 [Github Workflow](github.md)  
 [Jekyll Setup w/ Vagrant](jekyll.md)
 
