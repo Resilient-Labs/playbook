@@ -51,7 +51,7 @@ Our team will be happy to help you contact venue security, local law enforcement
 
 Key Staff:    
 David Delmar | david@resilientcods.org | 617.850.2186  
-Helen Rosenfeld | helen@resilientcoders.org |  
+Helen Rosenfeld | helen@resilientcoders.org | 617.306.7365  
 Leon Noel | leon@resilientcoders.org | 215.821.7195  
 
 If you feel at risk of immediate bodily harm, you should call 911.
