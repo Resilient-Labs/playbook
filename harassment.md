@@ -1,3 +1,3 @@
-######[main](README.md)
+###### [main](README.md)
 Anti-Harassment Policy
 ===============
