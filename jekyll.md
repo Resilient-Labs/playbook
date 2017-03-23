@@ -6,7 +6,7 @@ Environment for developing jekyll projects locally.
 
 ## Setup
 1. Make sure Vagrant and Virtual Box are installed.
-2. Clone this repository
+2. git clone https://github.com/Resilient-Labs/jekyll-vagrant.git  
 3. Open command prompt to location of the Vagrantfile and run ```vagrant up```
 4. Jekyll and all it's dependencies are installed!
 
