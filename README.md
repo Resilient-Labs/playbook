@@ -17,7 +17,7 @@
 
 ***Setup & Workflow***  
 [Github Workflow](github.md)  
-[Jekyll Setup w/ Vagrant](jekyll.md)
+[Jekyll Setup w/ Vagrant](jekyll.md)  
 [WordPress Setup w/ Vagrant & Roots.io Stack](https://github.com/Resilient-Labs/wordpress-starter)
 
 
