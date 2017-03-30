@@ -25,4 +25,5 @@ Environment for developing jekyll projects locally.
 4.	Type password, ```vagrant```
 5.  cd into new folder ```cd <sitename>```
 6.  Start the jekyll server ```jekyll serve --host 0.0.0.0```
-7.  Visit Site in Browser ```localhost:4000```
+7. If you get an error that mentions "exec" try ```bundle exec jekyll serve --host 0.0.0.0```  
+8.  Visit Site in Browser ```localhost:4000```
