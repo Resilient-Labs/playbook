@@ -31,7 +31,7 @@ Process for contributing to projects.
 11. Move back to master ```git checkout master```
 12. Pull any changes ```git pull```
 13. Repeat
-14. I want to repeat, but I need the changes I just made and my PR hasn't been excepted yet: ```git checkout -b branch-just-commited-name new-branch-name```
+14. I want to repeat, but I need the changes I just made and my PR hasn't been accepted yet: ```git checkout -b branch-just-commited-name new-branch-name```
 
 
 ##Submitting Pull Request
