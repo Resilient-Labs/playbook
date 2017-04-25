@@ -59,6 +59,9 @@ At a minimum you need to have:
   _Note: to shut down the server:_ `vagrant halt`
 
 5. **Test the install** at [roots-example-project.dev](http://roots-example-project.dev/)
+```
+# @ reminder url may change - check the name of the vm for correct url (cmd + spacebar and search for virtualbox)
+```
 
 ## Remote server setup (staging/production)
 
