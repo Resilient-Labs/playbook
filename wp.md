@@ -60,7 +60,8 @@ At a minimum you need to have:
 
 5. **Test the install** at [roots-example-project.dev](http://roots-example-project.dev/)
 ```shell
-# @ reminder url may change - check the name of the vm for correct url (cmd + spacebar and search for virtualbox)
+# @ reminder url may change - check the name of the vm for correct url
+(cmd + spacebar and search for virtualbox)
 ```
 
 ## Remote server setup (staging/production)
