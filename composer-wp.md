@@ -3,8 +3,7 @@ Make sure you follow the ReadMe for [Wordpress](wp.md) and get your environment 
 ###### *Composer Set up*
 
 Firstly install Homebrew on your Mac
-```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+
 Then install PHP
 ```brew update
 
