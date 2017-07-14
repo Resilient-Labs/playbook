@@ -3,6 +3,7 @@ Make sure you follow the ReadMe for [Wordpress](wp.md) and get your environment 
 *Composer Set up*
 
 Firstly install Homebrew on your Mac
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Then install PHP
 ```brew update
@@ -29,7 +30,7 @@ Download these files and unzip them:
 
 
 *WP SYNC DB/DB Media Files Install*
-# Make sure you’re in the /site directory.
+### Make sure you’re in the /site directory.
 ```cd ../site
 ```
 pwd
@@ -48,12 +49,12 @@ Always always ALWAYS run the following to keep your Composer up-to-date:
 ```
 
 *GITHUB UPDATER Install*
-Note: This will automatically update your GitHub-based plugins to their newest versions. Not a necessity, but highly recommended.
+# Note: This will automatically update your GitHub-based plugins to their newest versions. Not a necessity, but highly recommended.
 
-# Run the composer command:
+Run the composer command:
 ```composer require afragen/github-updater
 ```
-# Upload
+Upload
 
 * Download the latest tagged archive (choose the "zip" option).
 * Unzip the archive, rename the folder correctly to github-updater, then re-zip the file.
