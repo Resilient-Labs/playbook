@@ -1,6 +1,6 @@
 Make sure you follow the ReadMe for [Wordpress](wp.md) and get your environment down before installing.
 
-###### *Composer Set up*
+*Composer Set up*
 
 Firstly install Homebrew on your Mac
 
@@ -19,7 +19,7 @@ To test installation, run:
 ```composer -v
 ```
 The terminal response should look like the following:
-```Composer version 1.1.2 2016-05-31 19:48:11 (or whatever the latest version is - you'll have to scroll upward to find it)
+```Composer version 1.1.2 2016-05-31 19:48:11 <or whatever the latest version is - you'll have to scroll upward to find it>
 ```
 
 Download these files and unzip them:
