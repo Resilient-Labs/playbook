@@ -6,4 +6,4 @@
 4. Set the name of your droplet. DO NOT use spaces or non-alphanumeric characters.
 5. Click CREATE and wait for DigitalOcean to fire it up.
 
-- Optional: Add an SSH key in between steps 3 and 4. See [here](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets) on how to create one and get into the server.
+- Optional: Add an SSH key between steps 3 and 4. See [here](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets) on how to create one and get into the server.
