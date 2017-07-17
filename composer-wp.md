@@ -30,7 +30,7 @@ Download these files and unzip them:
 
 [WP-Sync-DB Media Files](https://github.com/wp-sync-db/wp-sync-db-media-files)
 
-*WP SYNC DB/DB Media Files Install*
+### WP SYNC DB/DB Media Files Install
 
 Make sure you’re in the /site directory:
 
