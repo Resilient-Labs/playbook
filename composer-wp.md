@@ -21,6 +21,7 @@ The terminal response should look like the following:
 ```
 
 Download these files and unzip them:
+
 [GitHub Updater](https://github.com/afragen/github-updater/releases)
 
 [WP-Sync-DB](https://github.com/wp-sync-db/wp-sync-db/releases)
