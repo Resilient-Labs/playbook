@@ -3,10 +3,12 @@
 # Composer Set up
 
 Install Homebrew on your Mac
+
 ```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Then install PHP
+
 ```brew update
 brew tap homebrew/dupes
 brew tap homebrew/php
