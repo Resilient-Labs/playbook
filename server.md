@@ -1,3 +1,7 @@
+[How To Use The Wordpress One-Click Install](https://www.digitalocean.com/community/tutorials/how-to-use-the-wordpress-one-click-install-on-digitalocean)
+[Learn Trellis: Wordpress Roots](https://code.lengstorf.com/learn-trellis-wordpress-roots/)
+
+You'll need to create a DigitalOcean account before you can make a droplet. Depending on your needs, the prices range from $5/mo to $640/mo.
 
 1. Select "Create Droplet", then under "Choose an image" select "one-click apps" and choose Wordpress 4.8 on 16.04.
 2. Choose a size  based on your needs; Standard $10/mo should be sufficient.
@@ -11,7 +15,3 @@ Open terminal
 ssh root@droplet.ip.address
 making sure to change droplet.ip.address into the given ip address
 Follow the UNIX password instructions that follow and then change the UNIX password from the provided password to be 'b.resilient' then you should receive a message like so:
-
-[How To Use The Wordpress One-Click Install](https://www.digitalocean.com/community/tutorials/how-to-use-the-wordpress-one-click-install-on-digitalocean)
-
-[Learn Trellis: Wordpress Roots]https://code.lengstorf.com/learn-trellis-wordpress-roots/
