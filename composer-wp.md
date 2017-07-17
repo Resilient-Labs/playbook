@@ -2,7 +2,8 @@ Make sure you follow the instructions for [Wordpress](wp.md) and get your enviro
 
 *Composer Set up*
 
-Install Homebrew on your Mac ```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+Install Homebrew on your Mac
+```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
 Then install PHP
 ```brew update
