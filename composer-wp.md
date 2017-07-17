@@ -1,13 +1,13 @@
 *Make sure you follow the instructions for* [Wordpress](wp.md) *and get your environment up before installing.*
 
-# Composer Set up
+# Composer Set-up
 
-Install Homebrew on your Mac
+Install Homebrew on your Mac:
 
 ```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Then install PHP
+Then install PHP:
 
 ```brew update
 brew tap homebrew/dupes
@@ -37,13 +37,13 @@ Make sure you’re in the /site directory.
 ```
 pwd
 
-### Output Example => /Users/desktop/rlab/myProject/site
+*Output Example => /Users/desktop/rlab/myProject/site*
 (should pop up upon entering the command)
 
-Use Composer to install WP Sync DB
+Use Composer to install WP Sync DB:
 ```composer require wp-sync-db/wp-sync-db:dev-master@dev
 ```
-Use Composer to install the media attachments plugin for WP Sync DB
+Use Composer to install the media attachments plugin for WP Sync DB:
 ```composer require wp-sync-db/wp-sync-db-media-files:dev-master
 ```
 
@@ -57,17 +57,17 @@ Always always ALWAYS run the following to keep your Composer up-to-date:
 Run the composer command:
 ```composer require afragen/github-updater
 ```
-Upload
+###### Upload
 
 * Download the latest tagged archive (choose the "zip" option).
 * Unzip the archive, rename the folder correctly to github-updater, then re-zip the file.
 * Go to the Plugins -> Add New screen and click the Upload tab.
 * Upload the zipped archive directly.
 
-# Manual Alternative
+###### Manual Alternative
 
 * Download the latest tagged archive (choose the "zip" option).
 * Unzip the archive, rename the folder to ```github-updater```.
 * Copy the folder to your ```/wp-content/plugins/``` directory.
 
-When all of this is done, run your Vagrant environment and go to the dashboard of your local Wordpress site. Go to the ```Plugins``` and activate WP Sync DB and its media attachment, and GitHub Updater.
+When all of this is done, run your Vagrant environment and go to the dashboard of your local Wordpress site. Go to ```Plugins``` and activate WP Sync DB and its media attachment, and GitHub Updater.
