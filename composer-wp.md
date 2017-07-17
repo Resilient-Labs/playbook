@@ -1,10 +1,8 @@
-Make sure you follow the ReadMe for [Wordpress](wp.md) and get your environment down before installing.
+Make sure you follow the instructions for [Wordpress](wp.md) and get your environment up before installing.
 
 *Composer Set up*
 
-Firstly install Homebrew on your Mac
-```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+Install Homebrew on your Mac ```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
 Then install PHP
 ```brew update
