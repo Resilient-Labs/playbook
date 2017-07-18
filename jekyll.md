@@ -1,3 +1,4 @@
+###### [main](README.md)
 Jekyll Setup using Vagrant
 ==============
 
@@ -5,7 +6,7 @@ Environment for developing jekyll projects locally.
 
 ## Setup
 1. Make sure Vagrant and Virtual Box are installed.
-2. Clone this repository
+2. git clone https://github.com/Resilient-Labs/jekyll-vagrant.git  
 3. Open command prompt to location of the Vagrantfile and run ```vagrant up```
 4. Jekyll and all it's dependencies are installed!
 
@@ -24,4 +25,5 @@ Environment for developing jekyll projects locally.
 4.	Type password, ```vagrant```
 5.  cd into new folder ```cd <sitename>```
 6.  Start the jekyll server ```jekyll serve --host 0.0.0.0```
-7.  Visit Site in Browser ```localhost:4000```
+7. If you get an error that mentions "exec" try ```bundle exec jekyll serve --host 0.0.0.0```  
+8.  Visit Site in Browser ```localhost:4000```
