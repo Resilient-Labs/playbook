@@ -18,7 +18,8 @@ brew install php71
 brew install composer
 ```
 To test installation, run:
-```composer -v
+```shell
+composer -v
 ```
 The terminal response should look like the following:
 ```shell
