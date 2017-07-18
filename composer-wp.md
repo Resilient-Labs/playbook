@@ -23,7 +23,9 @@ composer -v
 ```
 The terminal response should look like the following:
 ```shell
-Composer version 1.1.2 2016-05-31 19:48:11 (or whatever the latest version is - you will have to scroll upward to find it)
+Composer version 1.1.2 2016-05-31 19:48:11
+(or whatever the latest version is -
+you will have to scroll upward to find it)
 ```
 
 Download these files and unzip them:
