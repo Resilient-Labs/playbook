@@ -4,12 +4,14 @@
 
 Install Homebrew on your Mac:
 
-```$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```shell
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Then install PHP:
 
-```brew update
+```shell
+brew update
 brew tap homebrew/dupes
 brew tap homebrew/php
 brew install php71
@@ -19,7 +21,8 @@ To test installation, run:
 ```composer -v
 ```
 The terminal response should look like the following:
-```Composer version 1.1.2 2016-05-31 19:48:11 <or whatever the latest version is - you'll have to scroll upward to find it>
+```shell
+Composer version 1.1.2 2016-05-31 19:48:11 (or whatever the latest version is - you will have to scroll upward to find it)
 ```
 
 Download these files and unzip them:
@@ -34,7 +37,8 @@ Download these files and unzip them:
 
 Make sure you’re in the /site directory:
 
-```cd ../site
+```shell
+cd ../site
 ```
 pwd
 
@@ -42,21 +46,25 @@ pwd
 (should pop up upon entering the command)
 
 Use Composer to install WP Sync DB:
-```composer require wp-sync-db/wp-sync-db:dev-master@dev
+```shell
+composer require wp-sync-db/wp-sync-db:dev-master@dev
 ```
 Use Composer to install the media attachments plugin for WP Sync DB:
-```composer require wp-sync-db/wp-sync-db-media-files:dev-master
+```shell
+composer require wp-sync-db/wp-sync-db-media-files:dev-master
 ```
 
 Always always ALWAYS run the following to keep your Composer up-to-date:
-```composer update
+```shell
+composer update
 ```
 
 *GITHUB UPDATER Install*
 #### Note: This will automatically update your GitHub-based plugins to their newest versions. Not a necessity, but highly recommended.
 
 Run the composer command:
-```composer require afragen/github-updater
+```shell
+composer require afragen/github-updater
 ```
 ###### Upload
 
