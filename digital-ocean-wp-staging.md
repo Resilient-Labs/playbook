@@ -5,7 +5,7 @@ Wordpress on Digital Ocean Staging
 So you want to run a wordpress instance on Digital Ocean? Maybe for staging to show off to the client? Well you’re in luck, setting that up is as easy as pie. Follow these instructions to get there! Vamos!
 
 ## Prerequisites
-- A [Lastpass Account](https://www.lastpass.com/)
+- A <a href="https://www.lastpass.com/" target="_blank">Lastpass Account</a>
 - The Lastpass Chrome Extension installed on your Google Chrome browser
 - Terminal installed on your device
 

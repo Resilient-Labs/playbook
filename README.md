@@ -18,8 +18,8 @@
 ***Setup & Workflow***  
 [Github Workflow](github.md)  
 [Jekyll Setup w/ Vagrant](jekyll.md)  
-[WordPress Setup w/ Vagrant & Roots.io Stack](wp.md)
-[Wordpress on Digital Ocean Staging](server.md)
+[WordPress Setup w/ Vagrant & Roots.io Stack](wp.md)    
+[Wordpress on Digital Ocean for Staging](digital-ocean-wp-staging.md)
 
 
 The text of this playbook is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) unless otherwise licensed.  
