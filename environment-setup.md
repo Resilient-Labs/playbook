@@ -1,6 +1,11 @@
 # Environment Setup:
 Find here all the development dependencies and preferred development tools used in the Resilient Lab. If you run into any issues setting up or wish to make any changes to the setup process, please alert <a href="mailto:muigai@resilientcoders.org">Muigai</a> to the issue such that we can remedy the situation.
 
+<ul>
+    <a href="#VSCODE">VSCODE</a>
+    <a href="#atom">Atom</a>
+</ul>
+
 ## Bash Profile
 Open Terminal and edit your local device's bash profile by running the following in terminal:
 ```
@@ -16,7 +21,7 @@ export PATH=/usr/local/bin:$PATH
 #### VSCODE
 Download [vscode] (https://code.visualstudio.com/)
 
-#### Atom
+#### <span id="atom">Atom</span>
 Download [atom] (https://atom.io/)
 
 #### Figma
