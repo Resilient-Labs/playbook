@@ -2,8 +2,13 @@
 Find here all the development dependencies and preferred development tools used in the Resilient Lab. If you run into any issues setting up or wish to make any changes to the setup process, please alert <a href="mailto:muigai@resilientcoders.org">Muigai</a> to the issue such that we can remedy the situation.
 
 <ul>
-    <a href="#VSCODE">VSCODE</a>
-    <a href="#atom">Atom</a>
+    <li><a href="#vscode">VSCODE</a></li>      
+    <li><a href="#atom">Atom</a></li>   
+    <li><a href="#figma">Figma</a></li>  
+    <li><a href="#filezilla">File Zilla</a></li>  
+    <li><a href="#virtualbox">Virtual Box</a></li>  
+    <li><a href="#vagrant">Vagrant</a></li> 
+    <li><a href="#homebrew">Homebrew</a></li>    
 </ul>
 
 ## Bash Profile
@@ -18,27 +23,27 @@ export PATH=/usr/local/bin:$PATH
 
 ## Applications
 
-#### VSCODE
+#### <span id="vscode">VSCODE</span>
 Download [vscode] (https://code.visualstudio.com/)
 
 #### <span id="atom">Atom</span>
 Download [atom] (https://atom.io/)
 
-#### Figma
+#### <span id="#figma">Figma</span>
 Download [Figma](https://www.figma.com/downloads)
 
-#### File Zilla
+#### <span id="#filezilla">File Zilla</span>
 Download [FileZilla](https://filezilla-project.org/download.php?type=client)
 
-#### VirtualBox
+#### <span id="#virtualbox">Virtual Box</span>
 Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) >= 5.1.26
 
-#### Vagrant
+#### <span id="#vagrant">Vagrant</span>
 Download [Vagrant](https://www.vagrantup.com/downloads.html) >= 1.9.8
 
 ## Global
 
-#### Homebrew
+#### <span id="#homebrew">Homebrew</span>
 Homebrew installs the stuff you need that Apple didn’t
 Install [Homebrew] (https://brew.sh/) by running the following in terminal:
 ```
