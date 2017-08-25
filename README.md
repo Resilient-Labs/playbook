@@ -16,6 +16,7 @@
 [Javascript Style Guide](js-style.md)  
 
 ***Setup & Workflow***  
+[Environment Setup](environment-setup.md)  
 [Github Workflow](github.md)  
 [Jekyll Setup w/ Vagrant](jekyll.md)  
 [WordPress Setup w/ Vagrant & Roots.io Stack](wp.md)    

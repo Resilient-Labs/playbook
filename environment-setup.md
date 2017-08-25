@@ -25,6 +25,12 @@ Download [Figma](https://www.figma.com/downloads)
 #### File Zilla
 Download [FileZilla](https://filezilla-project.org/download.php?type=client)
 
+#### VirtualBox
+Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) >= 5.1.26
+
+#### Vagrant
+Download [Vagrant](https://www.vagrantup.com/downloads.html) >= 1.9.8
+
 ## Global
 
 #### Homebrew
@@ -35,21 +41,62 @@ Install [Homebrew] (https://brew.sh/) by running the following in terminal:
 ```
 
 #### Node
-Install [Node](https://nodejs.org) using homebrew by running the following in terminal:
+Install [Node](https://nodejs.org) using Homebrew by running the following in terminal:
 ```
 brew install node
 ```
 
+#### Yarn
+Install [Yarn](https://yarnpkg.com/ using Homebrew by running the following in terminal:
+```
+brew install yarn
+```
+
+#### Pip (the python package manager) 
+Install [PIP](http://docs.ansible.com/ansible/latest/intro_installation.html#latest-releases-via-pip) by running the following in terminal:
+```
+sudo easy_install pip
+```
+
+#### Ansible
+Install [Ansible](http://docs.ansible.com/ansible/latest/intro_installation.html#latest-releases-via-pip) by running the following in terminal:
+```
+sudo pip install ansible
+```
+
+#### Gulp CLI / Gulp
+Install the [Gulp CLI ("Command Line Interface")](https://gulpjs.com/) by running the following in terminal:
+```
+npm install --global gulp-cli
+```
+
+#### Bower
+Install [Bower](https://bower.io/) by running the following in terminal:
+```
+npm install -g bower
+```
+
+#### Vagrant Bindfs 
+Install [Vagrant Bindfs]() by running the following in terminal:
+```
+vagrant plugin install vagrant-bindfs
+```
+
+#### Vagrant Hostmanager 
+Install the [Vagrant Host Manager](https://github.com/devopsgroup-io/vagrant-hostmanager) by running the following terminal:
+```
+vagrant plugin install vagrant-hostmanager
+```
 #### Create React App
 Install [Create React App](https://github.com/facebookincubator/create-react-app) Globally by running the following in terminal:
 ```
 npm install -g create-react-app
 ```
 
-#### MongoDB
+#### MongoDB using Homebrew
 For rapid prototyping, as part of the MERN stack, for our database provider we use [MongoDB](https://www.mongodb.com/)
 
-##### Steps to install:
+##### Steps to install in MongoDB:
 1. Open the Terminal app and type: 
 ```
 brew update
@@ -60,11 +107,11 @@ brew update
 brew install mongodb
 ```
 
-3. After downloading Mongo, create the “db” directory. This is where the Mongo data files will live. You can create the directory in the default location by running 
+3. After downloading Mongo, create the “db” directory. This is where the Mongo data files will live. You can create the directory in the default location by running the following in terminal:
 ```
 mkdir -p /data/db
 ```
-Make sure that the /data/db directory has the right permissions by running
+4. Make sure that the /data/db directory has the right permissions by running the following in terminal:
 ```
 sudo chown -R `id -un` /data/db
 ```
@@ -83,12 +130,12 @@ mongo
 ```
 type mongo in another terminal window. This will run the Mongo shell which is an application to access data in MongoDB.
 
-7. Exit the Mongo shell by running the following in terminal:
+7. Exit the Mongo shell (terminal tab #1) by running the following in terminal:
 ```
 quit()
 ```
 
-8. To stop the Mongo daemon hit ctrl+c
+8. To stop the Mongo daemon (terminal tab #2) hit ctrl+c
 
 ## Testing
 
@@ -99,6 +146,6 @@ npm install --global mocha
 ```
 
 #### Postman
-Postman is used to share, test, document & monitor APIs
+Postman is used to share, test, document & monitor APIs  
 Download [Postman](https://www.getpostman.com/)
 
