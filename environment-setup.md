@@ -1,4 +1,4 @@
-# Environment Setup:
+# Environment Setup
 Find here all the development dependencies and preferred development tools used in the Resilient Lab. If you run into any issues setting up or wish to make any changes to the setup process, please alert <a href="mailto:muigai@resilientcoders.org">Muigai</a> to the issue such that we can remedy the situation.
 
 <ul>
@@ -8,7 +8,19 @@ Find here all the development dependencies and preferred development tools used 
     <li><a href="#filezilla">File Zilla</a></li>  
     <li><a href="#virtualbox">Virtual Box</a></li>  
     <li><a href="#vagrant">Vagrant</a></li> 
-    <li><a href="#homebrew">Homebrew</a></li>    
+    <li><a href="#homebrew">Homebrew</a></li>
+    <li><a href="#node">Node</a></li>  
+    <li><a href="#yarn">Yarn</a></li>   
+    <li><a href="#pip">Pip</a></li>   
+    <li><a href="#ansible">Ansible</a></li>   
+    <li><a href="#gulp">Gulp</a></li>   
+    <li><a href="#bower">Bower</a></li>   
+    <li><a href="#vagrantbindfs">Vagrant Bindfs</a></li>   
+    <li><a href="#vagranthostmanager">Vagrant Hostmanager</a></li>   
+    <li><a href="#createreactapp">Create React App</a></li>   
+    <li><a href="#mongodb">Mongodb</a></li>   
+    <li><a href="#mocha">Mocha</a></li>   
+    <li><a href="#postman">Postman</a></li>
 </ul>
 
 ## Bash Profile
@@ -50,60 +62,60 @@ Install [Homebrew] (https://brew.sh/) by running the following in terminal:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### Node
+#### <span id="#node">Node</span>
 Install [Node](https://nodejs.org) using Homebrew by running the following in terminal:
 ```
 brew install node
 ```
 
-#### Yarn
+#### <span id="#yarn">Yarn</span>
 Install [Yarn](https://yarnpkg.com/ using Homebrew by running the following in terminal:
 ```
 brew install yarn
 ```
 
-#### Pip (the python package manager) 
+#### <span id="#pip">Pip (the python package manager)</span>
 Install [PIP](http://docs.ansible.com/ansible/latest/intro_installation.html#latest-releases-via-pip) by running the following in terminal:
 ```
 sudo easy_install pip
 ```
 
-#### Ansible
+#### <span id="#ansible">Ansible</span>
 Install [Ansible](http://docs.ansible.com/ansible/latest/intro_installation.html#latest-releases-via-pip) by running the following in terminal:
 ```
 sudo pip install ansible
 ```
 
-#### Gulp CLI / Gulp
+#### <span id="#gulp">Gulp</span>
 Install the [Gulp CLI ("Command Line Interface")](https://gulpjs.com/) by running the following in terminal:
 ```
 npm install --global gulp-cli
 ```
 
-#### Bower
+#### <span id="#bower">Bower</span>
 Install [Bower](https://bower.io/) by running the following in terminal:
 ```
 npm install -g bower
 ```
 
-#### Vagrant Bindfs 
+#### <span id="#vagrantbindfs">Vagrant Bindfs</span>
 Install [Vagrant Bindfs]() by running the following in terminal:
 ```
 vagrant plugin install vagrant-bindfs
 ```
 
-#### Vagrant Hostmanager 
+#### <span id="#vagranthostmanager">Vagrant Hostmanager</span>
 Install the [Vagrant Host Manager](https://github.com/devopsgroup-io/vagrant-hostmanager) by running the following terminal:
 ```
 vagrant plugin install vagrant-hostmanager
 ```
-#### Create React App
+#### <span id="#createreactapp">Create React App</span>
 Install [Create React App](https://github.com/facebookincubator/create-react-app) Globally by running the following in terminal:
 ```
 npm install -g create-react-app
 ```
 
-#### MongoDB using Homebrew
+#### <span id="#mongodb">MongoDB using Homebrew</span>
 For rapid prototyping, as part of the MERN stack, for our database provider we use [MongoDB](https://www.mongodb.com/)
 
 ##### Steps to install in MongoDB:
@@ -149,13 +161,13 @@ quit()
 
 ## Testing
 
-#### Mocha
+#### <span id="#mocha">Mocha</span>
 Install [Mocha](https://mochajs.org/) globally using npm by running the following in terminal:
 ```
 npm install --global mocha
 ```
 
-#### Postman
+#### <span id="#postman">Postman</span>
 Postman is used to share, test, document & monitor APIs  
 Download [Postman](https://www.getpostman.com/)
 
