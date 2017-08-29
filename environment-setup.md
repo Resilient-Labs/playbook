@@ -18,7 +18,8 @@ Find here all the development dependencies and preferred development tools used 
     <li><a href="#vagrantbindfs">Vagrant Bindfs</a></li>   
     <li><a href="#vagranthostmanager">Vagrant Hostmanager</a></li>   
     <li><a href="#createreactapp">Create React App</a></li>   
-    <li><a href="#mongodb">Mongodb</a></li>   
+    <li><a href="#mongodb">Mongodb</a></li>
+    <li><a href="#composer">Composer</a></li>   
     <li><a href="#mocha">Mocha</a></li>   
     <li><a href="#postman">Postman</a></li>
 </ul>
@@ -158,6 +159,34 @@ quit()
 ```
 
 8. To stop the Mongo daemon (terminal tab #2) hit ctrl+c
+
+#### <span id="#composer">Composer</span>
+
+1. Make sure that Homebrew is installed already
+2. Install PHP by run each of the following in terminal:
+```shell
+brew update
+brew tap homebrew/dupes
+brew tap homebrew/php
+brew install php71
+brew install composer
+```
+3. To test installation, run:
+```shell
+composer -v
+```
+The terminal response should look like the following:
+```shell
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.5.1 2017-08-09 16:07:22
+```
+(or whatever the latest version is -
+you will have to scroll upward to find it)
 
 ## Testing
 
