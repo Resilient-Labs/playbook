@@ -100,15 +100,23 @@ npm install -g bower
 ```
 
 #### <span id="#vagrantbindfs">Vagrant Bindfs</span>
-Install [Vagrant Bindfs]() by running the following in terminal:
+Install [Vagrant Bindfs](https://github.com/gael-ian/vagrant-bindfs#installation) by running the following in terminal:
 ```
 vagrant plugin install vagrant-bindfs
 ```
 
 #### <span id="#vagranthostmanager">Vagrant Hostmanager</span>
+```vagrant-hostmanager``` is a Vagrant plugin that manages the ```hosts``` file on guest machines (and optionally the host). Its goal is to enable resolution of multi-machine environments deployed with a cloud provider where IP addresses are not known in advance
+
 Install the [Vagrant Host Manager](https://github.com/devopsgroup-io/vagrant-hostmanager) by running the following terminal:
 ```
 vagrant plugin install vagrant-hostmanager
+```
+
+Usage
+Update the hosts file on each active machine, by running the following terminal:
+```
+vagrant hostmanager
 ```
 #### <span id="#createreactapp">Create React App</span>
 Install [Create React App](https://github.com/facebookincubator/create-react-app) Globally by running the following in terminal:
@@ -132,7 +140,7 @@ brew install mongodb
 
 3. After downloading Mongo, create the “db” directory. This is where the Mongo data files will live. You can create the directory in the default location by running the following in terminal:
 ```
-mkdir -p /data/db
+sudo mkdir -p /data/db
 ```
 4. Make sure that the /data/db directory has the right permissions by running the following in terminal:
 ```
@@ -142,7 +150,7 @@ Next you will be prompted to enter your password
 
 5. Run the Mongo daemon (aka start the Mongo server), by running the following in terminal:
 ``` 
-run mongod
+mongod
 ``` 
 This should start the Mongo server.
 
@@ -153,12 +161,12 @@ mongo
 ```
 type mongo in another terminal window. This will run the Mongo shell which is an application to access data in MongoDB.
 
-7. Exit the Mongo shell (terminal tab #1) by running the following in terminal:
+7. Exit the Mongo shell (terminal tab #2), reminder the last command you executed was mongo to run this terminal window, by running the following in terminal:
 ```
 quit()
 ```
 
-8. To stop the Mongo daemon (terminal tab #2) hit ctrl+c
+8. To stop the Mongo daemon (terminal tab #1) hit ctrl+c, reminder the last command you executed was mongod to run this terminal window
 
 #### <span id="#composer">Composer</span>
 
