@@ -1,7 +1,6 @@
 # Starting a new Wordpress from the [Wordpress Starter](https://github.com/Resilient-Labs/wordpress-starter)
 
 
-<a href="#wp-local">Local Environment</a>
 <ul>
     <li><a href="#wp-local">Local Environment</a></li>
     <ul>
@@ -20,7 +19,6 @@
     </ul>
 </ul>
 
-## <span id="wp-local">Local Environment</span>
 <h2 id="wp-local">Local Environment</h2>
 Before you can duplicate a repository and push to your new copy, or mirror, of the repository, you must create the new repository on GitHub.
 For example, for a resilient lab project, the lead developer would initiate a empty repo on github with the name matching the directory (folder) that the files will be saved in. Afterwards, you can follow the following commands:
@@ -49,7 +47,7 @@ rm -rf wordpress-starter.git
 git clone https://github.com/your-github-username/new-repository-name.git
 ```
 
-### <span id="wp-local-custom-name">Making the files your own</span>
+<h3 id="wp-local-custom-name">Making the files your own</h3>
 Open in the entire project in the text editor/IDE 
 #### Files to edit:
 
@@ -65,7 +63,7 @@ Change line 8: ```- canonical: roots-example-project.dev``` to: ```- canonical: 
 Change line 10: ```- www.roots-example-project.dev``` to: ```- www.new-project-name.dev```   
 Change line 12: ```admin_email: admin@roots-example-project.dev``` to: ```admin_email: admin@new-project-name.dev```   
 
-### <span id="wp-local-run-server">Running the Wordpress Project on your local machine</span>
+<h3 id="wp-local-run-server">Running the Wordpress Project on your local machine</h3>
 1. Change directories to the ```trellis``` sub-directory by running the following in terminal:
 ```
 cd trellis 
@@ -116,16 +114,16 @@ _Note: to shut down the server:_ `vagrant halt`
 (cmd + spacebar and search for virtualbox)
 ```
 
-### <span id="wp-local-developing">Files to edit for Wordpress Development:</span>
+<h3 id="wp-local-developing">Files to edit for Wordpress Development:</h3>
 ...
 
-### <span id="wp-local-dashboard">Interacting with the Wordpress Dashboard</span>
+<h3 id="wp-local-dashboard">Interacting with the Wordpress Dashboard</h3>
 ...
 
-## <span id="wp-staging">Staging Environment</span>
+<h2 id="wp-staging">Staging Environment</h2>
 ...
 
-## <span id="wp-production">Production Environment</span>
+<h2 id="wp-production">Production Environment</h2>
 ...
 
 
