@@ -17,6 +17,7 @@
 
 ***Setup & Workflow***  
 [Environment Setup](environment-setup.md)  
+[Wordpress Starter Getting Started](wordpress.md)    
 [Github Workflow](github.md)  
 [Jekyll Setup w/ Vagrant](jekyll.md)  
 [WordPress Setup w/ Vagrant & Roots.io Stack](wp.md)    
