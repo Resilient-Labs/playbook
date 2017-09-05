@@ -13,18 +13,18 @@ git clone --bare https://github.com/Resilient-Labs/wordpress-starter.git
 cd wordpress-starter.git
 ```
 ```
-git push --mirror https://github.com/exampleuser/new-repository.git
+git push --mirror https://github.com/your-github-username/new-repository-name.git
 ```
 4. Remove the temporary local repository you created in step 1.
 ```
-cd ...
+cd ..
 ```
 ```
 rm -rf wordpress-starter.git
 ```
 5. Afterwards, check your github to see that the newly created repo has been populated with data from the cloned repo. If all looks good on github.com clone the updated like so (Remember, be sure you grab the clone link from your own newly created repo):
 ```
-git clone https://github.com/Resilient-Labs/new-project-name.git
+git clone https://github.com/your-github-username/new-repository-name.git
 ```
 
 ### Making the files your own
@@ -53,6 +53,40 @@ cd trellis
 # @ new-project-name/trellis (you must cd to this path)  
 ansible-galaxy install -r requirements.yml
 ```
+
+3. **Install theme components**
+Jump into the Sage directory by running the following in terminal:
+```shell
+# @ new-project-name/site/web/app/themes/sage (you must cd to this path)  
+cd ../site/web/app/themes/sage
+```
+then run the following in terminal:
+```shell
+# Install Node dependencies 
+npm install
+```
+
+```shell
+# Install Bower dependencies 
+bower install
+```
+
+```shell
+# Install Gulp dependencies 
+gulp
+```
+
+4. **Fire up the server** (be patient, but watch the console––it may prompt for your system password
+```shell
+# @ roots-example-project.com/trellis (you must cd to this path)  
+cd ../../../../../trellis
+```
+
+```shell
+# Run vagrant up !
+vagrant up
+```
+_Note: to shut down the server:_ `vagrant halt`
 
 ### Files to edit for Wordpress Development:
 
