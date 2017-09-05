@@ -6,7 +6,7 @@ Find here all the development dependencies and preferred development tools used 
     <li><a href="#atom">Atom</a></li>   
     <li><a href="#figma">Figma</a></li>  
     <li><a href="#filezilla">File Zilla</a></li>  
-    <li><a href="#virtualbox">Virtual Box</a></li>  
+    <li><a href="#vbox">Virtual Box</a></li>  
     <li><a href="#vagrant">Vagrant</a></li> 
     <li><a href="#homebrew">Homebrew</a></li>
     <li><a href="#node">Node</a></li>  
@@ -27,12 +27,29 @@ Find here all the development dependencies and preferred development tools used 
 ## Bash Profile
 Open Terminal and edit your local device's bash profile by running the following in terminal:
 ```
-open ~/.bash_profile
+cd ~
 ```
-A small window should open up, in that text edit file, copy and paste this:
+to go to the home directory.
+Next, we will create a file called `.bash_profile` (the dot means that it will be hidden).
+
+Then use `nano` or `vi` in the Terminal. Unless you know what `vi` is, just use `nano`. To open up these files, you would use:
+```
+sudo nano .bash_profile
+```
+`sudo` makes sure that you will be able to save these files. Here, you can add aliases. `nano` or `vi` will automatically create a new file if it does not exist in your current directory in Terminal.
+In nano, copy and paste this:
 ```
 export PATH=/usr/local/bin:$PATH
 ```
+After you are finished, press `Ctrl + O`, then `Enter`, and then `Ctrl + X` to save and quit. Finally, use
+```
+source ~/.bash_profile
+```
+to reload the Terminal and it will read what you put in those files.
+```
+open ~/.bash_profile
+```
+A small window should open up, in that text edit file see that you bash profile is updated.
 
 ## Applications
 
@@ -48,7 +65,7 @@ Download [Figma](https://www.figma.com/downloads)
 #### <span id="#filezilla">File Zilla</span>
 Download [FileZilla](https://filezilla-project.org/download.php?type=client)
 
-#### <span id="#virtualbox">Virtual Box</span>
+#### <span id="#vbox">Virtual Box</span>
 Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads) >= 5.1.26
 
 #### <span id="#vagrant">Vagrant</span>
@@ -113,11 +130,6 @@ Install the [Vagrant Host Manager](https://github.com/devopsgroup-io/vagrant-hos
 vagrant plugin install vagrant-hostmanager
 ```
 
-Usage
-Update the hosts file on each active machine, by running the following terminal:
-```
-vagrant hostmanager
-```
 #### <span id="#createreactapp">Create React App</span>
 Install [Create React App](https://github.com/facebookincubator/create-react-app) Globally by running the following in terminal:
 ```
