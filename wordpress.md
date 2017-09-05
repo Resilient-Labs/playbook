@@ -22,6 +22,10 @@ cd ...
 ```
 rm -rf wordpress-starter.git
 ```
+5. Afterwards, check your github to see that the newly created repo has been populated with data from the cloned repo. If all looks good on github.com clone the updated like so (Remember, be sure you grab the clone link from your own newly created repo):
+```
+git clone https://github.com/Resilient-Labs/new-project-name.git
+```
 
 ### Making the files your own
 Open in text editor/IDE
@@ -38,6 +42,17 @@ Change line 5: ```roots-example-project.com:``` to: ```new-project-name.com```
 Change line 8: ```- canonical: roots-example-project.dev``` to: ```- canonical: new-project-name.dev```   
 Change line 10: ```- www.roots-example-project.dev``` to: ```- www.new-project-name.dev```   
 Change line 12: ```admin_email: admin@roots-example-project.dev``` to: ```admin_email: admin@new-project-name.dev```   
+
+### Running the Wordpress Project on your local machine
+1. Change directories to the ```trellis``` sub-directory by running the following in terminal:
+```
+cd trellis 
+```
+2. **Install external Ansible roles/packages**
+```shell
+# @ new-project-name/trellis (you must cd to this path)  
+ansible-galaxy install -r requirements.yml
+```
 
 ### Files to edit for Wordpress Development:
 
