@@ -1,6 +1,7 @@
 # Starting a new Wordpress from the [Wordpress Starter](https://github.com/Resilient-Labs/wordpress-starter)
 
 
+<a href="#wp-local">Local Environment</a>
 <ul>
     <li><a href="#wp-local">Local Environment</a></li>
     <ul>
@@ -20,6 +21,7 @@
 </ul>
 
 ## <span id="wp-local">Local Environment</span>
+<h2 id="wp-local">Local Environment</h2>
 Before you can duplicate a repository and push to your new copy, or mirror, of the repository, you must create the new repository on GitHub.
 For example, for a resilient lab project, the lead developer would initiate a empty repo on github with the name matching the directory (folder) that the files will be saved in. Afterwards, you can follow the following commands:
 
