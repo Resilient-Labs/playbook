@@ -53,7 +53,7 @@ A small window should open up, in that text edit file see that you bash profile 
 
 ## Applications
 
-#### <span id="vscode">VSCODE</span>
+#### <span id="vscode">VSCODE</span> 
 Download [vscode] (https://code.visualstudio.com/)
 
 #### <span id="atom">Atom</span>

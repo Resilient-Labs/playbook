@@ -4,22 +4,18 @@
 <ul>
     <li><a href="#wp-local">Local Environment</a></li>
     <ul>
-        <li><a href="wp-local-custom-name">Making the files your own</a></li>
-        <li><a href="wp-local-run-server">Running the Site on your local machine</a></li>
-        <li><a href="wp-local-developing">Files to edit for Wordpress Development</a></li>
-        <li><a href="wp-local-dashboard">Interacting with the Wordpress Dashboard</a></li>  
+        <li><a href="#wp-local-custom-name">Making the files your own</a></li>
+        <li><a href="#wp-local-run-server">Running the Site on your local machine</a></li>
+        <li><a href="#wp-local-developing">Files to edit for Wordpress Development</a></li>
+        <li><a href="#wp-local-dashboard">Interacting with the Wordpress Dashboard</a></li>  
     </ul>
     <li><a href="#wp-staging">Staging Environment</a></li>
     <ul>
         <li><a href="#wp-local">Local Environment</a></li>
-        <li><a href="#wp-local">Local Environment</a></li>
-        <li><a href="#wp-local">Local Environment</a></li>  
     </ul>
     <li><a href="#wp-production">Production Environment</a></li>
     <ul>
         <li><a href="#wp-local">Local Environment</a></li>
-        <li><a href="#wp-local">Local Environment</a></li>
-        <li><a href="#wp-local">Local Environment</a></li>  
     </ul>
 </ul>
 
