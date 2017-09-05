@@ -1,4 +1,4 @@
-Starting a new Wordpress from the [Wordpress Starter](https://github.com/Resilient-Labs/wordpress-starter)
+# Starting a new Wordpress from the [Wordpress Starter](https://github.com/Resilient-Labs/wordpress-starter)
 
 Before you can duplicate a repository and push to your new copy, or mirror, of the repository, you must create the new repository on GitHub.
 For example, for a resilient lab project, the lead developer would initiate a empty repo on github with the name matching the directory (folder) that the files will be saved in. Afterwards, you can follow the following commands:
@@ -31,28 +31,16 @@ Change the line 25: "devUrl": "http://roots-example-project.dev"
 to "devUrl": "http://new-project-name.dev"
 
 /trellis/group_vars/development/vault.yml
-Change line 7:
-roots-example-project.com:
-to
-new-project-name.com:
+Change line 7: ```roots-example-project.com:``` to: ```new-project-name.com:```
 
 /trellis/group_vars/development/wordpress_sites.yml
-Change line 5:
-roots-example-project.com:
-to:
-new-project-name.com
-Change line 8:
-- canonical: roots-example-project.dev
-to:
-- canonical: new-project-name.dev
-Change line 10:
-- www.roots-example-project.dev
-to:
-- www.new-project-name.dev
-Change line 12:
-admin_email: admin@roots-example-project.dev
-to:
-admin_email: admin@new-project-name.dev
+Change line 5: ```roots-example-project.com:``` to: ```new-project-name.com```
+Change line 8: ```- canonical: roots-example-project.dev``` to: ```- canonical: new-project-name.dev```
+Change line 10: ```- www.roots-example-project.dev``` to: ```- www.new-project-name.dev```
+Change line 12: ```admin_email: admin@roots-example-project.dev``` to: ```admin_email: admin@new-project-name.dev```
+
+### Files to edit for Wordpress Development:
+
 
 
 
