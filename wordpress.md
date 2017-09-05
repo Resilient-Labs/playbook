@@ -27,7 +27,7 @@ rm -rf wordpress-starter.git
 git clone https://github.com/your-github-username/new-repository-name.git
 ```
 
-### Making the files your own
+## Making the files your own
 Open in text editor/IDE
 #### Files to edit:
 
@@ -43,7 +43,7 @@ Change line 8: ```- canonical: roots-example-project.dev``` to: ```- canonical: 
 Change line 10: ```- www.roots-example-project.dev``` to: ```- www.new-project-name.dev```   
 Change line 12: ```admin_email: admin@roots-example-project.dev``` to: ```admin_email: admin@new-project-name.dev```   
 
-### Running the Wordpress Project on your local machine
+## Running the Wordpress Project on your local machine
 1. Change directories to the ```trellis``` sub-directory by running the following in terminal:
 ```
 cd trellis 
