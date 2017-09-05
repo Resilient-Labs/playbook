@@ -20,14 +20,17 @@
 </ul>
 
 <h2 id="wp-local">Local Environment</h2>
+
 Before you can duplicate a repository and push to your new copy, or mirror, of the repository, you must create the new repository on GitHub.
 For example, for a resilient lab project, the lead developer would initiate a empty repo on github with the name matching the directory (folder) that the files will be saved in. Afterwards, you can follow the following commands:
 
 1. Open Terminal
+
 2. Create a bare clone of the repository by running the following in terminal:
 ```
 git clone --bare https://github.com/Resilient-Labs/wordpress-starter.git
 ```
+
 3. Mirror-push to the new repository by running the following in terminal:
 ```
 cd wordpress-starter.git
@@ -35,6 +38,7 @@ cd wordpress-starter.git
 ```
 git push --mirror https://github.com/your-github-username/new-repository-name.git
 ```
+
 4. Remove the temporary local repository you created in step 1.
 ```
 cd ..
@@ -42,6 +46,7 @@ cd ..
 ```
 rm -rf wordpress-starter.git
 ```
+
 5. Afterwards, check your github to see that the newly created repo has been populated with data from the cloned repo. If all looks good on github.com clone the updated like so (Remember, be sure you grab the clone link from your own newly created repo):
 ```
 git clone https://github.com/your-github-username/new-repository-name.git
@@ -64,10 +69,12 @@ Change line 10: ```- www.roots-example-project.dev``` to: ```- www.new-project-n
 Change line 12: ```admin_email: admin@roots-example-project.dev``` to: ```admin_email: admin@new-project-name.dev```   
 
 <h3 id="wp-local-run-server">Running the Wordpress Project on your local machine</h3>
+
 1. Change directories to the ```trellis``` sub-directory by running the following in terminal:
 ```
 cd trellis 
 ```
+
 2. **Install external Ansible roles/packages**
 ```shell
 # @ new-project-name/trellis (you must cd to this path)  
